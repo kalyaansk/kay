@@ -10,8 +10,8 @@ fps = 60
 clock = pygame.time.Clock() 
 running = False
 screen1 = pygame.display.set_mode((WIDTH,HEIGHT))
-title_font =pygame.font.Font('/System/Library/Fonts/Optima.ttc',56)
-title_font1 =pygame.font.Font('/System/Library/Fonts/Supplemental/STIXTwoMath.otf',26)
+title_font =pygame.font.Font('C:\WINDOWS\FONTS\ARIAL.TTF',56)
+title_font1 =pygame.font.Font('C:\WINDOWS\FONTS\ARIAL.TTF',26)
 rows = 6
 cols = 8 
 correct =[[0,0,0,0,0,0,0,0],
@@ -37,12 +37,12 @@ second_guess_num = 0
 
 #intro screen
   
-intro_surf = pygame.image.load('/Users/kk/Desktop/class11/computer science/PROJECTTT/pygame /memory game/intro_surf/Ma Belle Clit.jpg').convert()
-intro_surf_rect = intro_surf.get_rect(topleft = (-50,-20))
+intro_surf = pygame.image.load('E:\XI-A\kay-main\intro_surf\g e o r g i a n a.jpg').convert()
+intro_surf_rect = intro_surf.get_rect(topleft = (0,0))
 
 
-title_font2 =pygame.font.Font('/System/Library/Fonts/Supplemental/AmericanTypewriter.ttc',50)
-title_font3 =pygame.font.Font('/System/Library/Fonts/Supplemental/AmericanTypewriter.ttc',22)
+title_font2 =pygame.font.Font('C:\WINDOWS\FONTS\ARIAL.TTF',50)
+title_font3 =pygame.font.Font('C:\WINDOWS\FONTS\ARIAL.TTF',22)
 
 title_surf1 = title_font2.render('Tap',True,('White')).convert_alpha()
 title_surf1_rect = title_surf1.get_rect(topleft = (323, 64))
